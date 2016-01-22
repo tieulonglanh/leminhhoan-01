@@ -122,7 +122,11 @@ echo $this->Html->script('ckeditor/ckeditor');
                                 <a href="javascript:void(0);" onclick="javascript:document.image.submit();" class="btn btn-primary"> <span class="icon-32-save"></span> Lưu </a>
                                 <a href="javascript:void(0);" class="btn btn-primary" onclick="javascript:document.image.reset();"> <span class="icon-32-refresh"> </span> Làm mới </a>
                                 <a href="#messages" rel="modal" class="btn btn-primary"> <span class="icon-32-help"></span> Trợ giúp </a>
+
                                 <a href="<?php echo DOMAINAD ?>gallery_category" class="btn btn-primary"> <span class="icon-32-cancel"></span> Hủy </a>
+
+                                <a href="<?php echo DOMAINAD ?>product" class="btn btn-primary"> <span class="icon-32-cancel"></span> Hủy </a>
+
                             </div>
 
 

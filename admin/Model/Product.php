@@ -13,8 +13,7 @@ class Product extends AppModel
 		);
 	
 	public $validate = array(
-        'name' => array(
-				'notBlank' => array(
+        'name' => array( array(
 					'rule' => array('notBlank'),
 					'message' => 'Tên không được để trống',
 					'allowEmpty' => false

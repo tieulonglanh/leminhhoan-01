@@ -58,12 +58,17 @@
 
 
 
-                 
+                    <div class="form-group">
+                        <label>Tên tiếng anh</label>
+                        <?php echo $this->Form->input('Slideshow.name_en', array('label' => '', 'class' => 'form-control')); ?>
+                    </div>
+
 
                     <div class="form-group">
                         <label>Link</label>
                         <?php echo $this->Form->input('Slideshow.link', array('type' => 'textarea', 'label' => '', 'class' => 'form-control', 'style' => 'resize: none;')); ?>
                     </div>
+
 
                   
                     <div class="form-group">
@@ -74,6 +79,13 @@
                             
                         </select>
                     </div>
+
+                    <div class="form-group">
+                        <label>Sắp xếp</label>
+                        <?php echo $this->Form->input('Slideshow.sort_order', array('label' => '', 'class' => 'btn btn-sm btn-default')); ?>
+                    </div>
+
+
                     <div class="form-group">
                         <label>Hình đại diện</label>
 
