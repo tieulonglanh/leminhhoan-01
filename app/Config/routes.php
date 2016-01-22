@@ -25,7 +25,7 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'Video', 'action' => 'index', 'home'));
+	Router::connect('/', array('controller' => 'Home', 'action' => 'index', 'home'));
         Router::connect('/danh-muc/*', array('controller' => 'Video', 'action' => 'category'));
         Router::connect('/chi-tiet/*', array('controller' => 'Video', 'action' => 'detail'));
         Router::connect('/clip-moi.html', array('controller' => 'Video', 'action' => 'latest'));
