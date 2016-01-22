@@ -48,6 +48,7 @@
                     <div class="form-group">
                         <?php echo $this->Form->input('Setting.content', array('type' => 'textarea', 'label' => 'Nội dung cấu hình', 'class' => 'form-control', 'id' => 'content')); ?>
                     </div>
+
                      <div class="form-group">
                         <label>Mô tả </label>
                         <?php
@@ -68,6 +69,7 @@
                         echo $CKEditor->editor("data[Setting][html]", $initialValue, "");
                         ?>
                     </div>
+
                     <?php echo $this->Form->input('Setting.id', array('type' => 'hidden')); ?>
                 </div>
                 <?php echo $this->Form->end(); ?>

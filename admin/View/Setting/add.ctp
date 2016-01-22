@@ -48,6 +48,7 @@
                     <div class="form-group">
                         <?php echo $this->Form->input('Setting.content', array('type' => 'textarea', 'label' => 'Nội dung cấu hình', 'class' => 'form-control', 'id' => 'content')); ?>
                     </div>
+
                      <div class="form-group">
                         <label>Block HTml </label>
                         <?php

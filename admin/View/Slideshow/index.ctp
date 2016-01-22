@@ -65,7 +65,13 @@
                             <th width="4%">STT</th>
                             <th width="12%" style="text-align:center;">Avatar</th>
                             <th width="30%" style="text-align:center;"><?php echo $this->Paginator->sort('Slideshow.name', 'Tên Slideshow'); ?></th>
+
+
                             <th width="20%"><?php echo $this->Paginator->sort('Slideshow.display', 'Xuất hiện'); ?></th>
+
+                            <th width="20%"><?php echo $this->Paginator->sort('Slideshow.link', 'Link'); ?></th>
+
+
                             <th width="11%"><?php echo $this->Paginator->sort('Slideshow.modified', 'Thay đổi'); ?></th>
                             <th width="12%">Xử lý</th>
                             <th width="3%"><?php echo $this->Paginator->sort('Slideshow.id', 'Mã'); ?></th>
@@ -90,6 +96,11 @@
                                 ?>
                             </td>
                                 
+
+
+                                <td><?php echo $value['Slideshow']['link']; ?></td>
+
+
                                 <td>
                                     <?php echo date('d-m-Y', strtotime($value['Slideshow']['modified'])); ?></td>
                                 <td>
