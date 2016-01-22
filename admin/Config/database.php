@@ -65,7 +65,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'develop_home',
+		'database' => 'letshop',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);

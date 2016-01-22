@@ -101,105 +101,69 @@ if (in_array($setActive, array('link'))) {
 
                         <li>
                             <a href="<?php echo DOMAINAD ?>slideshow">
-                                <i class="fa fa-dashboard"></i> <span> Slideshow</span>
+                                <i class="fa fa-dashboard"></i> <span> Slide Show Trang Chủ</span>
                             </a>
                         </li> 
                         <li class="treeview active">
                                 <a href="#">
                                     <i class="fa fa-edit"></i>
-                                    <span> Right</span>
+                                    <span> Cột phải</span>
                                     <i class="fa fa-angle-left pull-right"></i>
                                 </a>
                                 <ul class="treeview-menu" <?php if($setActive == 'a' || $setActive == 'a_category'){echo 'style="display: block"'; }?> >
-                                    <li <?php if($setActive == 'a_category'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>right_category" ><i class="fa fa-angle-double-right"></i> Danh mục right</a></li>
-                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>right" ><i class="fa fa-angle-double-right"></i> Danh sách right</a></li>
+                                    <li <?php if($setActive == 'a_category'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>right_category" ><i class="fa fa-angle-double-right"></i> Danh mục cột phải</a></li>
+                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>right" ><i class="fa fa-angle-double-right"></i> Danh sách sản phẩm cột phải</a></li>
                                                                        
                                 </ul>
                         </li>
                         <li class="treeview active">
                                 <a href="#">
                                     <i class="fa fa-legal"></i>
-                                    <span> Content</span>
+                                    <span> Nội dung giữa</span>
                                     <i class="fa fa-angle-left pull-right"></i>
                                 </a>
                                 <ul class="treeview-menu" <?php if($setActive == 'a' || $setActive == 'a_category'){echo 'style="display: block"'; }?> >
-                                    <li <?php if($setActive == 'a_category'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>content_category" ><i class="fa fa-angle-double-right"></i> Danh mục Content</a></li>
-                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>content" ><i class="fa fa-angle-double-right"></i> Danh sách Content</a></li>
+                                    <li <?php if($setActive == 'a_category'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>content_category" ><i class="fa fa-angle-double-right"></i> Danh mục Nội dung giữa</a></li>
+                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>content" ><i class="fa fa-angle-double-right"></i> Danh sách sản phẩm nội dung giữa</a></li>
                                                                        
                                 </ul>
                         </li>
                         <li class="treeview active">
                                 <a href="#">
                                     <i class="fa fa-group"></i>
-                                    <span> Group</span>
+                                    <span> Nhóm</span>
                                     <i class="fa fa-angle-left pull-right"></i>
                                 </a>
                                 <ul class="treeview-menu" <?php if($setActive == 'a' || $setActive == 'a_category'){echo 'style="display: block"'; }?> >
-                                    <li <?php if($setActive == 'a_category'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>Group_category" ><i class="fa fa-angle-double-right"></i> Danh mục Group</a></li>
-                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>Group" ><i class="fa fa-angle-double-right"></i> Danh sách Group</a></li>
+                                    <li <?php if($setActive == 'a_category'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>Group_category" ><i class="fa fa-angle-double-right"></i> Danh mục nhóm</a></li>
+                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>Group" ><i class="fa fa-angle-double-right"></i> Danh sách sản phẩm nhóm</a></li>
                                                                        
                                 </ul>
                         </li>
                         <li class="treeview active">
                                 <a href="#">
                                     <i class="fa fa-edit"></i>
-                                    <span> Menuleft</span>
+                                    <span> Danh mục trái</span>
                                     <i class="fa fa-angle-left pull-right"></i>
                                 </a>
                                 <ul class="treeview-menu" <?php if($setActive == 'a' || $setActive == 'a_category'){echo 'style="display: block"'; }?> >
-                                    <!-- <li <?php if($setActive == 'a_category'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>gallerycategory" ><i class="fa fa-angle-double-right"></i> Danh mục ảnh</a></li> -->
-                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>menuleft" ><i class="fa fa-angle-double-right"></i> Danh sách Menuleft</a></li>
+                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>menuleft" ><i class="fa fa-angle-double-right"></i> Danh sách Danh mục trái</a></li>
                                                                        
                                 </ul>
                         </li>
                         <li class="treeview active">
                                 <a href="#">
                                     <i class="fa fa-edit"></i>
-                                    <span> News</span>
+                                    <span> Tin tức</span>
                                     <i class="fa fa-angle-left pull-right"></i>
                                 </a>
                                 <ul class="treeview-menu" <?php if($setActive == 'a' || $setActive == 'a_category'){echo 'style="display: block"'; }?> >
-                                    <li <?php if($setActive == 'a_category'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>newscategory" ><i class="fa fa-angle-double-right"></i> Danh mục News</a></li>
-                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>news" ><i class="fa fa-angle-double-right"></i> Danh sách News</a></li>
+                                    <li <?php if($setActive == 'a_category'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>newscategory" ><i class="fa fa-angle-double-right"></i> Danh mục Tin tức</a></li>
+                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>news" ><i class="fa fa-angle-double-right"></i> Danh sách Tin tức</a></li>
                                                                        
                                 </ul>
 
-                        <!--<li>
-                            <a href="<?php echo DOMAINAD ?>home">
-                                <i class="fa fa-dashboard"></i> <span> Bảng quản trị</span>
-                            </a>
-                        </li> -->
-                        <li class="treeview active">
-                                <a href="#">
-                                    <i class="fa fa-edit"></i>
-                                    <span> Video</span>
-                                    <i class="fa fa-angle-left pull-right"></i>
-                                </a>
-                                <ul class="treeview-menu" <?php if($setActive == 'video' || $setActive == 'video_category'){echo 'style="display: block"'; }?> >
-                                    <li <?php if($setActive == 'video_category'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video_category" ><i class="fa fa-angle-double-right"></i> Danh mục Video</a></li>
-                                    <li <?php if($setActive == 'video'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video" ><i class="fa fa-angle-double-right"></i> Danh sách Video</a></li>
-                                    <li <?php if($setActive == 'video'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video/add" ><i class="fa fa-angle-double-right"></i> Thêm mới Video</a></li>
-                                    <li <?php if($setActive == 'video'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video/listdelete" ><i class="fa fa-angle-double-right"></i> Video đã xóa</a></li>                                    
-                                    <li <?php if($setActive == 'video'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video/userupload" ><i class="fa fa-angle-double-right"></i> Video người dùng upload</a></li>                                    
-                                </ul>
-                        </li>
-                        <li class="treeview">
-                            <a href="#">
-                                <i class="fa fa-edit"></i>
-                                <span>Cấu hình Video</span>
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </a>
-                            <ul class="treeview-menu" <?php if($setActive == 'video' ){echo 'style="display: block"'; }?> >
-                                <li <?php if($setActive == 'video'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video/video_hot/?code=home" ><i class="fa fa-angle-double-right"></i> Video hot trang chủ</a></li>
-                                    <li <?php if($setActive == 'video'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video/video_hot/?code=category" ><i class="fa fa-angle-double-right"></i> Video hot trang danh mục</a></li>
-                                    <li <?php if($setActive == 'video'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video/video_vote/?code=home" ><i class="fa fa-angle-double-right"></i> Video vote trang chủ</a></li>
-                                    <li <?php if($setActive == 'video'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video/video_vote/?code=category" ><i class="fa fa-angle-double-right"></i> Video vote trang danh mục</a></li>
-                                    <li <?php if($setActive == 'video'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video/home_new" ><i class="fa fa-angle-double-right"></i> Video Mới Home</a></li>
-                                    <li <?php if($setActive == 'video'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video/home_top" ><i class="fa fa-angle-double-right"></i> Video Top Home</a></li>
-                                    <li <?php if($setActive == 'video'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>video/top_category?code=category" ><i class="fa fa-angle-double-right"></i> Video Top Danh Mục</a></li>
-                            </ul>
-
-                        </li>
+                        
 
                         <li class="treeview">
                             <a href="#">
@@ -214,10 +178,6 @@ if (in_array($setActive, array('link'))) {
                         </li>
 
 
-
-                        </li>
-
-                        
                                                 
                         <li class="treeview">
                             <a href="#">
@@ -226,10 +186,6 @@ if (in_array($setActive, array('link'))) {
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul class="treeview-menu" <?php if($setActive == 'setting' || $setActive == 'marketing' || $setActive == 'advertisement' ){echo 'style="display: block"'; }?> >
-
-
-                                <li <?php if($setActive == 'advertisement'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>advertisement" ><i class="fa fa-angle-double-right"></i> Danh sách quảng cáo</a></li>
-                                <li <?php if($setActive == 'marketing'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>marketing/send" ><i class="fa fa-angle-double-right"></i> Gửi email marketing</a></li>
 
 
                                 <li <?php if($setActive == 'setting'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>setting/index" ><i class="fa fa-angle-double-right"></i> Cấu hình</a></li>

@@ -11,9 +11,9 @@
 		{
 
 				$cat_product_right = $this->RightCategory->find('all', array(
-		            'conditions' => array(
-		                'RightCategory.status' => 1
-		            )
+                                    'conditions' => array(
+                                        'RightCategory.status' => 1
+                                    )
 		                ));
 				$this->set('cat_product_right',$cat_product_right);
 				// pr($cat_product_right);die;
