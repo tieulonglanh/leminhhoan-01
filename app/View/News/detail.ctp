@@ -46,7 +46,7 @@
                     	 <?php foreach ($listNews as $key => $value) {
                     	# code...
                     	?>
-                       <a href="" title=""><li><?php echo $value['News']['name']?></li></a>
+                       <a href="<?php echo DOMAIN?>chi-tiet-tin-tuc/<?php echo $value['News']['id']?>/<?php echo $value['News']['alias']?>.html" title=""><li><?php echo $value['News']['name']?></li></a>
                        <?php }?>
                     </div>
                     <div class="fll box-right">

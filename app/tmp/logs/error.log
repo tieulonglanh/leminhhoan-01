@@ -1302,3 +1302,12 @@ Request URL: /images/bg-button-green.gif
 Stack Trace:
 #0 D:\xampp\htdocs\leminhhoan-01-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-01-23 04:09:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/bg-button-green.gif
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

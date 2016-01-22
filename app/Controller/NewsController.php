@@ -108,6 +108,44 @@
 
 		}
 		public function detail($id=null){
+
+            $cat_product_right = $this->RightCategory->find('all', array(
+                                    'conditions' => array(
+                                        'RightCategory.status' => 1
+                                    )
+                        ));
+                $this->set('cat_product_right',$cat_product_right);
+                // pr($cat_product_right);die;
+                $list_cate_id = array();
+                foreach($cat_product_right as $right_cate) {
+                    $list_cate_id[] = $right_cate['RightCategory']['id'];
+                }
+                
+                // pr($list_cate_id); die;
+                
+                $product_right= $this->Right->find('all', array(
+                    'conditions' => array(
+                        'Right.status' => 1,
+                        'Right.right_category_id' => $list_cate_id
+                    ))
+                    
+                );
+                 // pr($product_right); die;
+
+                $mang=array();
+                foreach($list_cate_id as $key=>$value){
+                    foreach($product_right as $product){
+                        if($product['Right']['right_category_id'] == $value){
+                            $mang[$value][]= $product;
+                        }
+                    }
+                    
+                }
+                // pr($mang);die;
+
+                $this->set('mang', $mang);
+                // pr($product_right);die;
+                // 
 				 $detailNews = $this->News->findById($id);
 		        $this->set('detailNews', $detailNews);
 
@@ -120,6 +158,7 @@
 		            'conditions' => array(
 		                'News.status' => 1,
 		                'News.news_category_id' => $detailNews['News']['news_category_id'],
+                        'News.id <>' => $id,
 		            ),
 
 		            'order' => 'News.id DESC, News.modified DESC',
