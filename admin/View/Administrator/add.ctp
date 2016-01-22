@@ -73,10 +73,6 @@
                         <?php echo $this->Form->input('Administrator.role',array('type'=>'select','options'=>$list_role,'empty'=>'Chọn quyền','class'=>'small-input','label'=>''));?>
                     </div>
                     <div class="form-group">
-                        <label>Gán người dùng</label>
-                        <?php echo $this->Form->input('Administrator.user_assign_id',array('type'=>'select','options'=>$list_user,'empty'=>'Chọn người dùng','class'=>'large-input chosen','label'=>''));?>
-                    </div>
-                    <div class="form-group">
                         <label>Trạng thái&nbsp&nbsp&nbsp&nbsp&nbsp</label>
                         <?php
                         echo $this->Form->radio(
