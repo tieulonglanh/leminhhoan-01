@@ -18,16 +18,7 @@
                
             </div>
             <div class="fll box-main">
-                <div class="menu-main cf">
-                    <a href="#" class="fll"><span class="spr btn-13"></span>Sell On Letshop</a>
-                    <a href="#" class="fll"><span class="spr btn-14"></span>Sell On Letshop</a>
-                    <a href="#" class="fll"><span class="spr btn-15"></span>Sell On Letshop</a>
-                    <a href="#" class="fll"><span class="spr btn-16"></span>Sell On Letshop</a>
-                    <div class="box-login cf">
-                        <a href="#"class="fll ">Login</a>
-                        <a href="#"class="fll ">Register</a>
-                    </div>
-                </div>
+                <?php echo $login_register['Setting']['html']; ?>
                 <div class="cf content-main">
                     <div class="fll box_mainleft">
                         <div class="banner">
@@ -43,27 +34,8 @@
                                
                             </div>
                         </div>
-                        <div class="cf box-menu">
-                            <a href="#" class="fll">Hourly Deals</a>
-                            <a href="#" class="fll">Men's Fashion</a>
-                            <a href="#" class="fll">Woman's Fashion</a>
-                            <a href="#" class="fll">Personal Care</a>
-                            <a href="#" class="fll">Coirfit</a>
-                        </div>
-                        <div class="box-adv cf">
-                            <a href="#" class="fll box-adv1">
-                                <img src="images/quangcao/1.jpg">
-                            </a>
-                            <div class="fll box-adv2">
-                                <a href="#"><img src="images/quangcao/2.jpg"></a>
-                                <a href="#"><img src="images/quangcao/3.jpg"></a>
-                            </div>
-                            <a href="#" class="box-adv3"><img src="images/quangcao/4.jpg"></a>
-                            <div class="cf box-advbt">
-                                <a href="#" class="fll box-adv4"><img src="images/quangcao/5.jpg"/></a>
-                                <a href="#" class="fll box-adv5"><img src="images/quangcao/6.jpg"/></a>
-                            </div>
-                        </div>
+                        <?php echo $under_slide_menu['Setting']['html'] ?>
+                        <?php echo $under_slide_ads['Setting']['html'] ?>
                          <?php 
                             if(!empty($cat_product_content)){
                                 foreach ($cat_product_content as $key => $value) {

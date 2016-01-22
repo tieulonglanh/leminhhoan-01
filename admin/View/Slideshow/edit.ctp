@@ -59,10 +59,10 @@
 
 
 
-                    <div class="form-group">
+                   <!--  <div class="form-group">
                         <label>Tên tiếng anh</label>
                         <?php echo $this->Form->input('Slideshow.name_en', array('label' => '', 'class' => 'form-control')); ?>
-                    </div>
+                    </div> -->
 
 
                     <div class="form-group">
@@ -82,10 +82,10 @@
                     </div>
 
 
-                    <div class="form-group">
+                   <!--  <div class="form-group">
                         <label>Sắp xếp</label>
                         <?php echo $this->Form->input('Slideshow.sort_order', array('label' => '', 'class' => 'btn btn-sm btn-default')); ?>
-                    </div>
+                    </div> -->
 
 
 

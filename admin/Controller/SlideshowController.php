@@ -7,6 +7,8 @@
 ** date: 12/03/2012
 **
 */
+App::import('Vendor', 'ckeditor');
+App::import('Vendor', 'ckfinder');
 class SlideshowController extends AppController {
 
     public $name = 'Slideshow';
@@ -86,6 +88,7 @@ class SlideshowController extends AppController {
 	*/
 	public function copy($id)
 	{
+		
 		$this->Session->setFlash(__('', true));
 		if(!empty($id)){
 			$data = $this->Slideshow->read(null, $id);

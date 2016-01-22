@@ -947,3 +947,408 @@ Stack Trace:
 #9 D:\wamp\www\letshop\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
 #10 D:\wamp\www\letshop\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #11 {main}
+2016-01-22 16:40:29 Error: [MissingControllerException] Controller class HomController could not be found.
+Exception Attributes: array (
+  'class' => 'HomController',
+  'plugin' => NULL,
+)
+Request URL: /admin/hom
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/huong-dan-ngan-nhanh-cakephp-2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/-Dragon-Ball-Super-dragon-ball-super-38841846-1280-720.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/slideshow-product.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/formatting-number-jquery.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/trojan-word-cloud.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/luong-it-vietnam.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/Make-Money-Using-Google-AdSense.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/social-tooltips-effect.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/-Dragon-Ball-Super-dragon-ball-super-38841846-1280-720.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/slideshow-product.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/luong-it-vietnam.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/trojan-word-cloud.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/formatting-number-jquery.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/huong-dan-ngan-nhanh-cakephp-2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/Make-Money-Using-Google-AdSense.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:08:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /admin/img/news//admin/webroot/upload/image/images/News/092015/social-tooltips-effect.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:18:25 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/muc-luong-it-toan-cau.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:18:25 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/muc-luong-it-toan-cau.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:18:43 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/slideshow-product.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:19:49 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/slideshow-product.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 17:19:49 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/slideshow-product.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:13:55 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/Antivirus%20scan%20for%201b8e36f8562ffbdbcbc4f2ac469d5630d374174a97aa35766c08119549ecee37%20at%202015-09-17%2002-35-24%20UTC%20-%20VirusTotal%202015-09-17%2013-39-46.png
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:13:55 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/Antivirus%20scan%20for%201b8e36f8562ffbdbcbc4f2ac469d5630d374174a97aa35766c08119549ecee37%20at%202015-09-17%2002-35-24%20UTC%20-%20VirusTotal%202015-09-17%2013-39-46.png
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:13:55 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/virus-total-com-scan.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:13:55 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/virus-total-com.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:13:55 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/virus-total-com-scan.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:13:55 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/virus-total-com.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:14:11 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/cakephp-smarty-vendor.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:14:11 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/cakephp-smarty-plugin.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:14:11 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/cakephp-smarty-result.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:14:11 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/cakephp-smarty-pages-controller.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:45:33 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/muc-luong-it-toan-cau.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:45:33 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/muc-luong-it-toan-cau.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:45:54 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/muc-luong-it-toan-cau.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:45:54 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/muc-luong-it-toan-cau.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:46:05 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/slideshow-product.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:46:05 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/slideshow-product.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:46:15 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/virus-total-com.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:46:15 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/virus-total-com-scan.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:46:15 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/Antivirus%20scan%20for%201b8e36f8562ffbdbcbc4f2ac469d5630d374174a97aa35766c08119549ecee37%20at%202015-09-17%2002-35-24%20UTC%20-%20VirusTotal%202015-09-17%2013-39-46.png
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:46:42 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/cakephp-smarty-result.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:46:42 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/cakephp-smarty-pages-controller.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:46:42 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/cakephp-smarty-vendor.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-22 18:46:42 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /admin/webroot/upload/image/images/News/092015/cakephp-smarty-plugin.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\leminhhoan-01-master\admin\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

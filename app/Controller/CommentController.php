@@ -23,7 +23,12 @@
         $slideshow = $this->Slideshow->find('all', array('conditions' => array('Slideshow.status' => 1,'Slideshow.display' => 1),'order' => 'Slideshow.modified DESC'));
         return $slideshow;
 
-    }
+    	}
+    	public function slidebot() {
+        $slideshow = $this->Slideshow->find('all', array('conditions' => array('Slideshow.status' => 1,'Slideshow.display' => 2),'order' => 'Slideshow.modified DESC'));
+        return $slideshow;
+
+    	}
 		function product_right($catId = null) {$cat1 = array();
         $cat1[0]=$catId;$i=1;
         $cat = $this-> RightCategory ->find('all', array('conditions' => array('RightCategory.status' => 1)));

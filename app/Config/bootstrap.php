@@ -6,6 +6,7 @@ define('WWW_APP', ROOT . DS . APP_DIR . DS);
 define('DOMAIN','http://'.$_SERVER["HTTP_HOST"].'/');
 define('DOMAINAD','http://'.$_SERVER["HTTP_HOST"].'/admin/');
 define('DOMAINIMG','http://'.$_SERVER["HTTP_HOST"]);
+define('IMAGEAD', DOMAINAD . IMAGES_URL);
 //define('FB_APP_ID','1672140313044385'); //thật
 define('FB_APP_ID','1672352019689881'); //test
 //define('FB_APP_SECRET','cc583d1b84730a17ecaec28ab907a17f'); //thật

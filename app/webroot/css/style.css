@@ -46,7 +46,7 @@ span.btn-alloption{ background-position: -254px -16px; }
 .box-login{position: absolute; top: 0; right: 30px}
 .box-login a{display: block; font:normal 12px Tahoma; color: #7a7877;margin:15px 18px  }
 .content-main{width: 100%}
-.box_mainleft{padding: 25px 25px 30px 25px; box-sizing: border-box; background: #f0f0f8; width: 859px}
+.box_mainleft{padding: 5px 25px 10px 25px; box-sizing: border-box; background: #f0f0f8; width: 859px}
 .banner{width: 810px; height: 332px; position: relative}
 .box-menu{padding: 0 85px; height: 65px}
 .box-menu a{display: block; font: normal 18px Tahoma; color: #717a7d; margin: 20px 10px}
@@ -165,3 +165,27 @@ a.btn-shopnow{display: block; font: normal 10px/19px Tahoma; color: #fff; width:
 a.pro-fur{max-height: 146px!important;}
 span.mota-khan{width:50%!important;font: bold 12px Tahoma; color: #5d5d5d; text-align: center}
 .shop-khan{top: 150px!important;}
+.paginate li{
+	list-style: none;float: left;
+}
+.disabled {
+    margin: 0 5px 0 0;
+    padding: 3px 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px 4px 4px 4px;
+}
+.paginate .active {
+    background: #469400 url('../images/bg-button-green.gif') top left repeat-x !important;
+    border-color: #459300 !important;
+    color: #fff !important;
+    border: 1px solid #ddd;
+    margin: 0 5px 0 0;
+    padding: 3px 6px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+    .paginate a {
+   margin: 0 5px 0 0;
+    padding: 3px 6px;
+    border: 1px #cdcdcd solid;
+    border-radius: 4px;}
