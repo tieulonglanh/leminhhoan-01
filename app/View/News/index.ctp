@@ -28,7 +28,9 @@
                     # code...
                     ?>
                     <div>
+
                         <img width="809" height="250" src="<?php echo DOMAINU ?><?php echo $value['News']['images']; ?>" />
+
                         <p><?php echo $value['News']['name'] ?></p>
                         <p><?php echo $value['News']['description'] ?></p>
                         <p><a href="<?php echo DOMAIN ?>chi-tiet-tin-tuc/<?php echo $value['News']['id'] ?>/<?php echo $value['News']['alias'] ?>.html" title="">Xem tiếp </a></p>
@@ -55,7 +57,7 @@
                         <div class="box-newpro">
 
                             <span class="title-pro"><?php echo $value['RightCategory']['name']; ?></span>
-        <?php foreach ($mang[$value['RightCategory']['id']] as $key => $row): ?>
+								<?php foreach ($mang[$value['RightCategory']['id']] as $key => $row): ?>
 
 
                                 <div class="item-new pRel">
@@ -63,11 +65,11 @@
                                     <a href="<?php echo $row['Right']['alias'] ?>" class="code-new"><?php echo $row['Right']['name'] ?></a>
                                     <span><?php echo $row['Right']['price'] ?></span>
                                 </div>
-        <?php endforeach ?>
+										<?php endforeach ?>
                             <a href="#" class="readMore">ALL NEW PRODUCTS</a>
                         </div>
-    <?php }
-} ?>
+						<?php }
+					} ?>
             </div>
         </div>
 
