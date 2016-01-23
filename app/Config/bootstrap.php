@@ -3,6 +3,7 @@ if (!session_id()) {
     session_start();
 }
 define('WWW_APP', ROOT . DS . APP_DIR . DS);
+define('DOMAINU','http://'.$_SERVER["HTTP_HOST"].'');
 define('DOMAIN','http://'.$_SERVER["HTTP_HOST"].'/');
 define('DOMAINAD','http://'.$_SERVER["HTTP_HOST"].'/admin/');
 define('DOMAINIMG','http://'.$_SERVER["HTTP_HOST"]);

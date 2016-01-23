@@ -35,7 +35,7 @@
                     	</p>
                    
                         <div>
-                        	<img src="<?php echo DOMAINAD?>/timthumb.php?src=<?php echo $detailNews['News']['images'];?>&amp;h=250&amp;w=809&amp;zc=1" />
+                        	<img width="809" height="250" src="<?php echo DOMAINU ?><?php echo $detailNews['News']['images']; ?>" />
                         	<!-- <p><?php echo $value['News']['name']?></p> -->
 							<p><?php echo $detailNews['News']['description']?></p>
                         	<p><?php echo $detailNews['News']['detail']?></p>
