@@ -18,16 +18,7 @@
                
             </div>
             <div class="fll box-main">
-                <div class="menu-main cf">
-                    <a href="#" class="fll"><span class="spr btn-13"></span>Sell On Letshop</a>
-                    <a href="#" class="fll"><span class="spr btn-14"></span>Sell On Letshop</a>
-                    <a href="#" class="fll"><span class="spr btn-15"></span>Sell On Letshop</a>
-                    <a href="#" class="fll"><span class="spr btn-16"></span>Sell On Letshop</a>
-                    <div class="box-login cf">
-                        <a href="#"class="fll ">Login</a>
-                        <a href="#"class="fll ">Register</a>
-                    </div>
-                </div>
+                <?php echo $login_register['Setting']['html']; ?>
                 <div class="cf content-main">
                     <div class="fll box_mainleft">
                     	<p style="background: #DAD8D3;padding: 5px;">
@@ -40,6 +31,9 @@
 							<p><?php echo $detailNews['News']['description']?></p>
                         	<p><?php echo $detailNews['News']['detail']?></p>
                         </div>
+                       
+
+                        <div class="fb-comments" data-href="https://www.facebook.com/letsshop.ie/?fref=ts" data-width="100%" data-numposts="5"></div>
                         <p style="background: #DAD8D3;padding: 5px;">
                     		Tin tức liên quan
                     	</p>

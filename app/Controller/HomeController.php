@@ -173,6 +173,56 @@ class HomeController extends AppController {
         ));
         $this->set('under_slide_ads', $under_slide_ads);
         
+        ///////////////////////////////////
+         $anhpc1 = $this->Slideshow->find('first', array(
+            'conditions' => array(
+                'id' => '34'
+            ),
+            'order' => 'created DESC'
+        ));
+        $this->set('anhpc1', $anhpc1);
+        //////////////////////////////////
+         $anhpc2 = $this->Slideshow->find('first', array(
+            'conditions' => array(
+                'id' => '35'
+            ),
+            'order' => 'created DESC'
+        ));
+        $this->set('anhpc2', $anhpc2);
+        //////////////////////////////////
+         $anhpc3 = $this->Slideshow->find('first', array(
+            'conditions' => array(
+                'id' => '36'
+            ),
+            'order' => 'created DESC'
+        ));
+        $this->set('anhpc3', $anhpc3);
+        //////////////////////////////////
+         $anhpc4 = $this->Slideshow->find('first', array(
+            'conditions' => array(
+                'id' => '37'
+            ),
+            'order' => 'created DESC'
+        ));
+        $this->set('anhpc4', $anhpc4);
+        //////////////////////////////////
+         $anhpc5 = $this->Slideshow->find('first', array(
+            'conditions' => array(
+                'id' => '38'
+            ),
+            'order' => 'created DESC'
+        ));
+        $this->set('anhpc5', $anhpc5);
+        //////////////////////////////////
+         $anhpc6 = $this->Slideshow->find('first', array(
+            'conditions' => array(
+                'id' => '39'
+            ),
+            'order' => 'created DESC'
+        ));
+        $this->set('anhpc6', $anhpc6);
+        //////////////////////////////////
+        
         $menu_footer_1 = $this->Setting->find('first', array(
             'conditions' => array(
                 'name' => 'footer-menu-1'

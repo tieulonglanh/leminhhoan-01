@@ -69,7 +69,7 @@
 
                             <th width="20%"><?php echo $this->Paginator->sort('Slideshow.display', 'Xuất hiện'); ?></th>
 
-                            <th width="20%"><?php echo $this->Paginator->sort('Slideshow.link', 'Link'); ?></th>
+                            <!-- <th width="20%"><?php echo $this->Paginator->sort('Slideshow.link', 'Link'); ?></th> -->
 
 
                             <th width="11%"><?php echo $this->Paginator->sort('Slideshow.modified', 'Thay đổi'); ?></th>
@@ -91,21 +91,24 @@
                                     if($value['Slideshow']['display'] == 1) {
                                         echo "Slideshow-top";
                                     } elseif($value['Slideshow']['display'] == 2) {
-                                        echo "Slideshow-bottom"; }
+                                        echo "Slideshow-bottom"; 
+                                    }elseif($value['Slideshow']['display'] == 3) {
+                                        echo "Ảnh quảng cáo"; 
+                                    }
                                    
                                 ?>
                             </td>
                                 
 
 
-                                <td><?php echo $value['Slideshow']['link']; ?></td>
+                                <!-- <td><?php echo $value['Slideshow']['link']; ?></td> -->
 
 
                                 <td>
                                     <?php echo date('d-m-Y', strtotime($value['Slideshow']['modified'])); ?></td>
                                 <td>
-                                    <a href="<?php echo DOMAINAD ?>slideshow/copy/<?php echo $value['Slideshow']['id']; ?>" title="Copy"><img src="<?php echo DOMAINAD ?>images/icons/copy.png" alt="Copy" /></a>
-                                    <a href="<?php echo DOMAINAD ?>slideshow/edit/<?php echo $value['Slideshow']['id']; ?>" title="Edit"><img src="<?php echo DOMAINAD ?>images/icons/pencil.png" alt="Edit" /></a> <a href="javascript:confirmDelete('<?php echo DOMAINAD ?>slideshow/delete/<?php echo $value['Slideshow']['id']; ?>')" title="Delete"><img src="<?php echo DOMAINAD ?>images/icons/cross.png" alt="Delete" /></a>
+                                   <?php if($value['Slideshow']['display'] == 3){ ?>
+                                             <a href="<?php echo DOMAINAD ?>slideshow/edit/<?php echo $value['Slideshow']['id']; ?>" title="Edit"><img src="<?php echo DOMAINAD ?>images/icons/pencil.png" alt="Edit" /></a> <!-- <a href="javascript:confirmDelete('<?php echo DOMAINAD ?>slideshow/delete/<?php echo $value['Slideshow']['id']; ?>')" title="Delete"><img src="<?php echo DOMAINAD ?>images/icons/cross.png" alt="Delete" /></a> -->
                                     <?php
                                     if ($value['Slideshow']['status'] == 0) {
                                         ?>
@@ -115,8 +118,23 @@
                                         ?>
                                         <a href="<?php echo DOMAINAD ?>slideshow/close/<?php echo $value['Slideshow']['id']; ?>" title="Đóng" class="icon-4 info-tooltip"><img src="<?php echo DOMAINAD ?>images/icons/success-icon.png" alt="Ngắt kích hoạt" /></a>
                                     <?php
-                                    }
-                                    ?></td>
+                                    }?>
+                                   <?php }else{?>
+                                         <a href="<?php echo DOMAINAD ?>slideshow/edit/<?php echo $value['Slideshow']['id']; ?>" title="Edit"><img src="<?php echo DOMAINAD ?>images/icons/pencil.png" alt="Edit" /></a>
+                                          <a href="javascript:confirmDelete('<?php echo DOMAINAD ?>slideshow/delete/<?php echo $value['Slideshow']['id']; ?>')" title="Delete"><img src="<?php echo DOMAINAD ?>images/icons/cross.png" alt="Delete" /></a>
+                                    <?php
+                                    if ($value['Slideshow']['status'] == 0) {
+                                        ?>
+                                        <a href="<?php echo DOMAINAD ?>slideshow/active/<?php echo $value['Slideshow']['id']; ?>" title="Kích hoạt" class="icon-5 info-tooltip"><img src="<?php echo DOMAINAD ?>images/icons/Play-icon.png" alt="Kích hoạt" /></a>
+                                    <?php
+                                    } else {
+                                        ?>
+                                        <a href="<?php echo DOMAINAD ?>slideshow/close/<?php echo $value['Slideshow']['id']; ?>" title="Đóng" class="icon-4 info-tooltip"><img src="<?php echo DOMAINAD ?>images/icons/success-icon.png" alt="Ngắt kích hoạt" /></a>
+                                    <?php
+                                    }?>
+                                   <?php }?>
+                                   
+                                    </td>
                                 <td align="right"><?php echo $value['Slideshow']['id']; ?></td>
                             </tr>
                         <?php } ?>

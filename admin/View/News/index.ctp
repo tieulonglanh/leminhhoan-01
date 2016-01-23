@@ -38,7 +38,7 @@
                         </table>
                         <?php echo $this->Form->end(); ?>
 
-                        <?php echo $this->Form->create(null, array('url' => DOMAINAD . 'news_category/action_all', 'type' => 'post', 'name' => 'frm_list')); ?>
+                        <?php echo $this->Form->create(null, array('url' => DOMAINAD . 'news/action_all', 'type' => 'post', 'name' => 'frm_list')); ?>
 
                         <?php $error = $this->Session->flash(); ?>
                         <?php if (strlen($error) > 45): ?>
@@ -66,6 +66,17 @@
                             <tfoot>
                                 <tr>
                                     <td colspan="9">
+                                        <div class="bulk-actions align-left" style="float: left">
+                                            <div id="box_action_all">
+                                                <select name="process" id="chose_action_all" class="btn btn-sm btn-default" style="text-align: left">
+                                                    <option value="none">Lựa chọn</option>
+                                                    <option value="active_all">Active</option>
+                                                    <option value="close_all">Hủy Active</option>
+                                                    <option value="delete_all">Delete</option>
+                                                </select>
+                                                <input type="submit" name="submit_action_all" class="btn btn-sm btn-danger" value="Thực hiện" />
+                                            </div><!--end #box_action_all-->
+                                        </div><!--end #bulk-aciton-->
                                         <div class="pagination" style="float: right; margin-right: 10px;">
                                             <?php
                                             if($this->Paginator->counter('{:pages}')>1){
@@ -122,6 +133,7 @@
                             <?php } ?>
                             </tbody>
                         </table>
+                        <?php echo $this->Form->end(); ?>
                     </div>
                 </div>
                 <!-- /box -->

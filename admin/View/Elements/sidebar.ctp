@@ -158,8 +158,8 @@ if (in_array($setActive, array('link'))) {
                                     <i class="fa fa-angle-left pull-right"></i>
                                 </a>
                                 <ul class="treeview-menu" <?php if($setActive == 'a' || $setActive == 'a_category'){echo 'style="display: block"'; }?> >
-                                    <li <?php if($setActive == 'a_category'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>newscategory" ><i class="fa fa-angle-double-right"></i> Danh mục Tin tức</a></li>
-                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>news" ><i class="fa fa-angle-double-right"></i> Danh sách Tin tức</a></li>
+                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>news" ><i class="fa fa-angle-double-right"></i> Danh sác Tin tức</a></li>
+                                    <li <?php if($setActive == 'a'){echo 'class="active"'; }?> ><a href="<?php echo DOMAINAD ?>news/add" ><i class="fa fa-angle-double-right"></i> Tạo Tin tức mới</a></li>
                                                                        
                                 </ul>
 

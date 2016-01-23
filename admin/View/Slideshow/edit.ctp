@@ -75,9 +75,10 @@
                     <div class="form-group">
                         <label>Xuất hiện</label>
                         <select name="data[Slideshow][display]" id="data[][]" class="form-control">
+                            <option value="0">Chọn vị trí</option>
                             <option value="1">Slideshow-Top</option>
                             <option value="2">Slideshow-Bottom</option>
-                            
+                            <option value="3">Ảnh quảng cáo</option>
                         </select>
                     </div>
 
