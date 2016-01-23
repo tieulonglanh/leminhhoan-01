@@ -63,7 +63,7 @@
                     </div>
 
                     <div class="form-group">
-                        <?php echo $this->Form->input('News.news_category_id',array('type'=>'select','options'=>$list_cat,'empty'=>'Chọn danh mục','class'=>'form-control','label'=>'Danh mục'));?>
+                        <?php echo $this->Form->input('News.news_category_id',array('type'=>'select','options'=>$list_cat,'class'=>'form-control','label'=>'Danh mục'));?>
                     </div>
 
                     <div class="form-group">
