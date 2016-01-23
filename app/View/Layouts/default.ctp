@@ -9,7 +9,7 @@
     <div class="c-wrapper fixCen">
         <header>
             <div class="innerHeader cf">
-                <a href="#" class="logo"></a>
+                <a href="/" class="logo"></a>
                 <div class="fll box-search">
                     <input type="text" placeholder="Nội dung tìm kiếm">
                     <button></button>
