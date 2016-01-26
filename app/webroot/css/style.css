@@ -197,3 +197,23 @@ span.mota-khan{width:50%!important;font: bold 12px Tahoma; color: #5d5d5d; text-
     a li{
         color: #A54040;
     }
+.jssora03r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 38px;
+            height: 38px;
+            cursor: pointer;
+            background: url(../images/next.jpg) no-repeat;
+            overflow: hidden;
+        }
+        .jssora03l{
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 38px;
+            height: 38px;
+            cursor: pointer;
+            background: url(../images/prev.jpg) no-repeat;
+            overflow: hidden;
+        }

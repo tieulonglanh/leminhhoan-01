@@ -84,7 +84,7 @@
                   jQuery(document).ready(function ($) {
                       
                       var jssor_1_options = {
-                        $AutoPlay: true,
+                        $AutoPlay: false,
                         $AutoPlaySteps: 1,
                         $SlideDuration: <?php echo $i*3;?>00,
                         $SlideWidth: 300,
@@ -152,10 +152,8 @@
                                  
                                 <?php } ?>
                                    </div>
-                                  <!-- Bullet Navigator -->
-                                 
-                                  <!-- Arrow Navigator -->
-                                 
+                                  <span data-u="arrowleft" class="jssora03l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
+                                  <span data-u="arrowright" class="jssora03r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
                                  
                               </div>
                             </div>
